@@ -1,0 +1,19 @@
+#footer {
+    .footer-container {
+        width: 70%;
+        margin: auto;
+        .row {
+            width: 30%;
+            a {
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .row {
+                width: 100%;
+            }
+        }
+    }
+}
