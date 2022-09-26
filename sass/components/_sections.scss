@@ -1,0 +1,70 @@
+
+
+.sec-1 {
+    height: 80vh;
+    padding: 2% 0;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        article {
+            margin: 10% auto;
+            width: 50%;
+            color: #fff;
+            h2 {
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+            p {
+                color: #fff;
+                font-size: 1rem;
+                margin: 3% 0 5%;
+                width: 80%;
+            }
+            a {
+                text-decoration: none;
+                background: #fff;
+                color: black;
+                padding: 8px 15px;
+                border-radius: 20px;
+            }
+        }
+    }
+    .icons {
+        display: block;
+        margin-top: 5%;
+        height: 30vh;
+        left: 50%;
+        top: 65%;
+        position: absolute;
+        transform: translateX(-50%);
+        img {
+            width: 50px;
+            padding-bottom: 0;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+
+//  Top Sale Template
+
+#top-sale {
+    .container {
+        padding-top: 1rem !important;
+    }
+}
+
+#special-price {
+    .grid {
+        .grid-item {
+            .product {
+                text-align: center;
+            }
+        }
+    }
+}

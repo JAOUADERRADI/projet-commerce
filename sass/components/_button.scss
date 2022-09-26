@@ -1,0 +1,22 @@
+//  Button Template
+
+button,
+button:focus {
+    outline:    none !important;
+    box-shadow: none !important;
+}
+
+.btn-bg {
+    border: 0;
+    border-radius: 0;
+    transition: .5s;
+    border-bottom: 1px solid white;
+    &:hover {
+        border-bottom: 1px solid black;
+    }  
+}
+
+.grid {
+    margin-top: 2%;
+    padding-top: 1%;
+}

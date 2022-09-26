@@ -1,0 +1,39 @@
+@import "../config";
+
+//  Typographie classe
+
+.roboto {
+    font-family:  $roboto;
+}
+
+.inter {
+    font-family:   $inter;
+}
+
+.raleway {
+    font-family: $raleway;
+}
+
+.font-size__12 {
+    font-size: 12px;
+}
+
+.font-size__14 {
+    font-size: 14px;
+}
+
+.font-size__16 {
+    font-size: 16px;
+}
+
+.font-size__18 {
+    font-size: 18px;
+}
+
+.font-size__20 {
+    font-size: 20px;
+}
+
+.font-size__22 {
+    font-size: 22px;
+}

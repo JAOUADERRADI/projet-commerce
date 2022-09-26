@@ -1,0 +1,56 @@
+//  Top sale Template
+
+#top-sale, #new {
+    .item {
+        height: 60vh !important;
+        width: 80%;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    .owl-carousel .item .product a {
+        overflow: hidden;
+    }
+
+    .owl-carousel .item .product{
+        height: 80%;
+        transition: transform .5s ease;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .owl-nav {
+        display: block;
+    }
+
+    .owl-carousel .owl-nav button {
+        position: absolute;
+        top: 35%;
+        outline: none;
+    }
+
+    .owl-carousel .owl-nav .owl-prev {
+        left: 0;
+        margin-left: -1%;
+    }
+
+    .owl-carousel .owl-nav .owl-next {
+        right: 0;
+        margin-right: -1%;
+    }
+
+    .owl-carousel .owl-nav .owl-prev span,
+    .owl-carousel .owl-nav .owl-next span {
+        font-size: 40px;
+        color: black;
+        transition: transform .5s ease;
+    }
+
+    .owl-carousel .owl-nav .owl-prev:hover,
+    .owl-carousel .owl-nav .owl-next:hover {
+        background-color: white;
+        transform: scale(1.2);
+    }
+
+}
